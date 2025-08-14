@@ -1,0 +1,11 @@
+{
+  "name": "thundercord-discord-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "tsc && vite build",
+    "start": "NODE_ENV=production tsx server/index.ts",
+    "db:push": "drizzle-kit push"
+  }
+}
